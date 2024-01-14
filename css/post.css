@@ -1,0 +1,14 @@
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divC {
+    width: 24.56vw;
+    border: 1px solid black;
+}
+
+.divP {
+    border: 1px solid black;
+    background-color: gray;
+}
