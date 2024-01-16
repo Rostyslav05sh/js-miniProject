@@ -2,7 +2,7 @@ let url = new URL(location.href)
 let u = url.searchParams.get('id')
 
 const asyncFunc = async () => {
-    const json = await fetch('http://jsonplaceholder.typicode.com/users/' + JSON.parse(u));
+    const json = await fetch('https://jsonplaceholder.typicode.com/users/' + JSON.parse(u));
     const users = await json.json();
     let div2 = document.createElement('div')
     document.body.append(div2)
@@ -56,7 +56,7 @@ button.addEventListener('click', function (e) {
     document.body.append(div4)
 })
 }
-asyncFunc();
+void asyncFunc();
 
 
 
